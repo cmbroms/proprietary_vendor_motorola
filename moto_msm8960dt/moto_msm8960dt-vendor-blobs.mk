@@ -1,10 +1,10 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2012 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-# http://www.apache.org/licenses/LICENSE-2.0
+#      http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -46,6 +46,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/moto_msm8960dt/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
     vendor/motorola/moto_msm8960dt/proprietary/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
     vendor/motorola/moto_msm8960dt/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+    vendor/motorola/moto_msm8960dt/proprietary/lib/hw/audio_policy.msm8960.so:system/lib/hw/audio_policy.msm8960.so \
+    vendor/motorola/moto_msm8960dt/proprietary/lib/hw/audio.primary.msm8960.so:system/lib/hw/audio.primary.msm8960.so \
     vendor/motorola/moto_msm8960dt/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/motorola/moto_msm8960dt/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/moto_msm8960dt/proprietary/lib/libadspd.so:system/lib/libadspd.so \
@@ -248,6 +250,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/moto_msm8960dt/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/moto_msm8960dt/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/motorola/moto_msm8960dt/proprietary/etc/hdcp_8960.dat.enc:system/etc/hdcp_8960.dat.enc \
+    vendor/motorola/moto_msm8960dt/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
+    vendor/motorola/moto_msm8960dt/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/motorola/moto_msm8960dt/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/motorola/moto_msm8960dt/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/motorola/moto_msm8960dt/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
