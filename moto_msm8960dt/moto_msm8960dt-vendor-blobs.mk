@@ -46,8 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/moto_msm8960dt/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
     vendor/motorola/moto_msm8960dt/proprietary/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
     vendor/motorola/moto_msm8960dt/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
-    vendor/motorola/moto_msm8960dt/proprietary/lib/hw/audio_policy.msm8960.so:system/lib/hw/audio_policy.msm8960.so \
-    vendor/motorola/moto_msm8960dt/proprietary/lib/hw/audio.primary.msm8960.so:system/lib/hw/audio.primary.msm8960.so \
     vendor/motorola/moto_msm8960dt/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/motorola/moto_msm8960dt/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/moto_msm8960dt/proprietary/lib/libadspd.so:system/lib/libadspd.so \
