@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,18 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(BOARD_VENDOR),motorola-qcom)
-ifeq ($(TARGET_BOARD_PLATFORM),msm8960)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libtime_genoff
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/lib/libtime_genoff.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-include $(BUILD_PREBUILT)
-
-endif
+ifneq ($(filter moto_msm8960 moto_msm8960_jbbl,$(TARGET_DEVICE)),)
+include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
 
